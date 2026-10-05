@@ -19,36 +19,37 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="Circle.h" />
-    <ClInclude Include="Config.h" />
-    <ClInclude Include="CPoint.h" />
-    <ClInclude Include="IShape.h" />
-    <ClInclude Include="IShapeVisitor.h" />
-    <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="SFMLDrawer.h" />
-    <ClInclude Include="ShapeAdapter.h" />
-    <ClInclude Include="ShapeFactory.h" />
-    <ClInclude Include="ShapeFormatter.h" />
-    <ClInclude Include="ShapeParser.h" />
-    <ClInclude Include="Triangle.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="SFMLDrawer.cpp" />
-    <ClCompile Include="ShapeFactory.cpp" />
-    <ClCompile Include="ShapeFormatter.cpp" />
-    <ClCompile Include="ShapeManager.cpp" />
-    <ClCompile Include="ShapeManager.h" />
-    <ClCompile Include="ShapeParser.cpp" />
-    <ClCompile Include="Triangle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="input.txt" />
     <Text Include="output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\Circle.cpp" />
+    <ClCompile Include="src\CircleAdapter.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Rectangle.cpp" />
+    <ClCompile Include="src\SFMLDrawer.cpp" />
+    <ClCompile Include="src\ShapeFactory.cpp" />
+    <ClCompile Include="src\ShapeFormatter.cpp" />
+    <ClCompile Include="src\ShapeManager.cpp" />
+    <ClCompile Include="src\ShapeParser.cpp" />
+    <ClCompile Include="src\Triangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application.h" />
+    <ClInclude Include="src\Circle.h" />
+    <ClInclude Include="src\Config.h" />
+    <ClInclude Include="src\CPoint.h" />
+    <ClInclude Include="src\IShape.h" />
+    <ClInclude Include="src\IShapeVisitor.h" />
+    <ClInclude Include="src\Rectangle.h" />
+    <ClInclude Include="src\SFMLDrawer.h" />
+    <ClInclude Include="src\ShapeAdapter.h" />
+    <ClInclude Include="src\ShapeFactory.h" />
+    <ClInclude Include="src\ShapeFormatter.h" />
+    <ClInclude Include="src\ShapeManager.h" />
+    <ClInclude Include="src\ShapeParser.h" />
+    <ClInclude Include="src\Triangle.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
